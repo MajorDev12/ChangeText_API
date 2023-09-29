@@ -1,1 +1,1 @@
-colo
+( ChangeText is case sensitive e.g Major and Escrow are two different words )

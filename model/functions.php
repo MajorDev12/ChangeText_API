@@ -40,8 +40,11 @@ function replaceKeywords($inputFile, $outputFile, $keywordMap)
 
   // Replace the keywords with their corresponding values
   foreach ($keywordMap as $keyword => $replacement) {
-    $pattern = '/\b' . preg_quote($keyword, '/') . '\b/';
-    $content = preg_replace($pattern, $replacement, $content);
+    // $pattern = '/\b' . preg_quote($keyword, '/') . '\b/i';
+    // $content = preg_replace($pattern, $replacement, $content);
+
+    // Replace all occurrences of the word, regardless of word boundaries
+    $content = str_replace($keyword, $replacement, $content);
   }
 
   // Write the modified content to the output file
