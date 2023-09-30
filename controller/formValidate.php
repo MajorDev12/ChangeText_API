@@ -8,7 +8,7 @@ $clean = inputValidation($_POST["clean"]);
 
 // Usage example
 $inputFile = $dirtyText;
-$outputFile = '../clean.txt';
+$outputFile = '../files/clean.txt';
 $keywordMap = array(
   $dirty => $clean
 );
