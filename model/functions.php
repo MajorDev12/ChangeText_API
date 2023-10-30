@@ -32,6 +32,11 @@ function matchWords($dirtyText, $dirty)
   return $result;
 }
 
+function countWords($text)
+{
+  $words = explode(' ', $text);
+  return count($words);
+}
 
 function replaceKeywords($inputFile, $outputFile, $keywordMap)
 {

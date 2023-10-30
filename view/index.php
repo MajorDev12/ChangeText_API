@@ -1,5 +1,8 @@
-<?php require_once "../view/header.php"; ?>
+<?php
+session_start();
+require_once "../view/header.php"; ?>
 <div class="landing-page">
+  <textarea name="" id="" cols="30" rows="10"></textarea>
   <h1><?php
       if (isset($_POST["change"])) {
         echo '';

@@ -12,7 +12,7 @@
   <div id="home">
     <header class="header">
       <div class="logo">
-        <h1>ChangeText <span>Api</span></h1>
+        <h1>ChangeText<span>Api</span></h1>
       </div>
       <ul class="header-links">
         <li><a href="index.php">Home</a></li>
