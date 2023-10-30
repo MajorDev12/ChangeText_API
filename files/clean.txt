@@ -1,1 +1,1 @@
-coloedText
+A major api that changes specified words in a paragraph
